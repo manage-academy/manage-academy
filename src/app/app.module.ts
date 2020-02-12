@@ -23,10 +23,14 @@ import {
   TooltipModule,
   TypeaheadModule
 } from 'ngx-bootstrap';
+import {HeaderComponent} from './components/header/header.component';
+import {FooterComponent} from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
